@@ -1,0 +1,38 @@
+.container {
+    position: relative;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+.item:nth-child(1) {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.item:nth-child(2) {
+    z-index: 1;
+    top: 55px;
+    left: 50px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.item:nth-child(3) {
+    top: 107px;
+    left: 120px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: lime;
+}
